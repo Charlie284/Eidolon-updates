@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0-rc.2",
-  "notes": "Connects the macOS app to the signed desktop update channel. Settings → Updates can check, download, verify, install, and restart; automatic checks never install without an explicit action.\n\nmacOS 14 or later, Apple Silicon. Release candidate using Apple Development signing; not Developer ID notarized.\n",
+  "version": "0.1.0-rc.3",
+  "notes": "Fixes macOS initialization after an in-app update. The replacement app waits for the old processes to exit and reopens through macOS Launch Services, preserving the profile and update recovery state.\n\nUpdates use the existing HTTPS channel and trusted signature key. Automatic checks never install without an explicit action.\n\nmacOS 14 or later, Apple Silicon. Release candidate using Apple Development signing; not Developer ID notarized.\n",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/Charlie284/Eidolon-updates/releases/download/v0.1.0-rc.2/Eidolon.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOUF2b3RIVmIwL05BZGMwbUZVRnhJUTVBTkFIK211STVrN2taemZ6ZmRnQ3JRME1Pckt2a0JicEg4TGpjUE1MUE9JczFhNlErV3dEb2hFLzQ2bnZhUTVKa00vZXBTS3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjEzNzA4CWZpbGU6RWlkb2xvbi5hcHAudGFyLmd6CjhlMGdJdWNHQ1BhalBHaFRFRHArRWhCVGNqR3FPelVWTkZaVURGaXgvU1FtVGx3VUVnMEdTTnVjaGVWcXZESkZvajF4VTdBdStsVjJ3enBnTWZIU0NBPT0K"
+      "url": "https://github.com/Charlie284/Eidolon-updates/releases/download/v0.1.0-rc.3/Eidolon.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOUF2b3RIVmIwL05XMUluR2lHekYyemc5Z3UwSUFFTUNTTHVJbGR0bzBtaG15R3BFMkV6a3d0ek5ZV1FoWFduRGh0clJDYU0yNUZQeVFLRGo2amtWTDdsSXRDbW5kZFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjE2NTY4CWZpbGU6RWlkb2xvbi5hcHAudGFyLmd6CitlelZScEg1d3Bwd2REWTAwOUR2RlRGSUVZWmg0dkIxOFZ4VU14bUtja0NJb3NLYVhkSHdJMC9XS3VCYlByWThoVUJZaXMxODZuK2l2eUtKNnIrR0JRPT0K"
     }
   }
 }
